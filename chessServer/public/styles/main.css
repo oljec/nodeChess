@@ -1,0 +1,38 @@
+* {
+    padding:0;
+    margin:0;
+}
+header {
+    height:50px;
+    width:100%;
+}
+.wrapper {
+    margin: 0 auto;
+    width:840px;
+    border: 1px solid black;
+    padding:20px;
+    border-radius: 10px;
+}
+.chessBoard {
+    width: 504px;
+}
+.chessBoard .deskCell {
+    float:left;
+    width: 60px;
+    height: 60px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    border: 1px solid black;
+    background: lightgray;
+}
+.chessBoard .deskCell.white {
+    background: #64a903;
+}
+.chessBoard .deskCell.black {
+    background: #a9014c;
+}
+
+
+.cleaner {
+    clear: both;
+}
