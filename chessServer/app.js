@@ -15,11 +15,11 @@ io.on('connection', function(socket) {
 
     socket.on('getAllFigures', function() {
         var allFigures = chessDesk.getFigures();
-        io.sockets.emit('serverAllFigures', allFigures);
+        socket.emit('serverAllFigures', allFigures);
     });
     socket.on('getDesk', function() {
         var desk = chessDesk.getDesk();
-        io.sockets.emit('serverDesk', desk);
+        socket.emit('serverDesk', desk);
     });
 });
 

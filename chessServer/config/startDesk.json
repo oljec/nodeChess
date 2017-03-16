@@ -1,12 +1,30 @@
 {
   "desk": [
-    [1,1,0,0,0,0,2,2],
-    [1,1,0,0,0,0,2,2],
-    [1,1,0,0,0,0,2,2],
-    [1,1,0,0,0,0,2,2],
-    [1,1,0,0,0,0,2,2],
-    [1,1,0,0,0,0,2,2],
-    [1,1,0,0,0,0,2,2],
-    [1,1,0,0,0,0,2,2]
+    [10,10,0,0,0,0,20,20],
+    [10,10,0,0,0,0,20,20],
+    [10,10,0,0,0,0,20,20],
+    [10,10,0,0,0,0,20,20],
+    [10,10,0,0,0,0,20,20],
+    [10,10,0,0,0,0,20,20],
+    [10,10,0,0,0,0,20,20],
+    [10,10,0,0,0,0,20,20]
+  ],
+  "figures": [
+    {"id" : 0, "type" : "peshka", "side" : "white", "line" : 0, "row" : 1},
+    {"id" : 1, "type" : "peshka", "side" : "white", "line" : 1, "row" : 1},
+    {"id" : 2, "type" : "peshka", "side" : "white", "line" : 2, "row" : 1},
+    {"id" : 3, "type" : "peshka", "side" : "white", "line" : 3, "row" : 1},
+    {"id" : 4, "type" : "peshka", "side" : "white", "line" : 4, "row" : 1},
+    {"id" : 5, "type" : "peshka", "side" : "white", "line" : 5, "row" : 1},
+    {"id" : 6, "type" : "peshka", "side" : "white", "line" : 6, "row" : 1},
+    {"id" : 7, "type" : "peshka", "side" : "white", "line" : 7, "row" : 1},
+    {"id" : 16, "type" : "peshka", "side" : "black", "line" : 0, "row" : 6},
+    {"id" : 17, "type" : "peshka", "side" : "black", "line" : 1, "row" : 6},
+    {"id" : 18, "type" : "peshka", "side" : "black", "line" : 2, "row" : 6},
+    {"id" : 19, "type" : "peshka", "side" : "black", "line" : 3, "row" : 6},
+    {"id" : 20, "type" : "peshka", "side" : "black", "line" : 4, "row" : 6},
+    {"id" : 21, "type" : "peshka", "side" : "black", "line" : 5, "row" : 6},
+    {"id" : 22, "type" : "peshka", "side" : "black", "line" : 6, "row" : 6},
+    {"id" : 23, "type" : "peshka", "side" : "black", "line" : 7, "row" : 6}
   ]
 }
